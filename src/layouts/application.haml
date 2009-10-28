@@ -1,9 +1,8 @@
+- @site_name ||= "StaticMatic Bootstrap"
+
 !!!
 %html
   %head
-    %title StaticMatic
-    = stylesheets :screen
-    = stylesheets :print
-    = stylesheets :ie
-  %body
+    = partial('shared/head')
+  %body{:id => @body_id}
     = yield

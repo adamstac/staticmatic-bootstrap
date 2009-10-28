@@ -9,3 +9,6 @@ configuration.haml_options = {
 }
 
 configuration.use_extensions_for_page_links = false
+configuration.preview_server_port = 80
+configuration.preview_server_host = "staticmatic.local"
+configuration.use_extensions_for_page_links = false
