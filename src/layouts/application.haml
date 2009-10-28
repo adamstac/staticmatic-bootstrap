@@ -1,8 +1,9 @@
 - @site_name ||= "StaticMatic Bootstrap"
+- @body_id ||= "application"
 
 !!!
 %html
   %head
     = partial('shared/head')
-  %body{:id => @body_id}
+  %body{:id => @body_id, :class => @body_class}
     = yield
