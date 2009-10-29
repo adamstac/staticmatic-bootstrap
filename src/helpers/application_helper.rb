@@ -1,7 +1,16 @@
 module ApplicationHelper
   
+  def page_title
+    full_page_title.join(" - ")
+  end
+  
+  def full_page_title
+    page_title = [@site_name ||= "StaticMatic Bootstrap"]
+    page_title << @page_title
+  end
+  
   def body_id
-    @body_id unless nil?
+    @body_id
   end
   
   def body_class
