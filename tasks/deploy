@@ -1,2 +1,0 @@
-#!/usr/bin/env bash
-staticmatic build . && rsync -avz --delete site/ server:path/to/destination/

@@ -1,4 +1,4 @@
-ROOT = File.join(File.dirname(__FILE__), '..')
+ROOT = File.join(File.dirname(__FILE__), '/')
 puts "Site root is: " + File.expand_path(ROOT)
 
 output_style = :compressed

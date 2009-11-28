@@ -1,6 +1,6 @@
 require 'compass'
 
-Compass.configuration.parse('config/compass.rb')
+Compass.configuration.parse('config.rb')
 configuration.sass_options = Compass.sass_engine_options
 
 configuration.haml_options = {
