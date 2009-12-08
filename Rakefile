@@ -12,7 +12,7 @@ task :build => 'styles:clear' do
   system "staticmatic build ."
 end
 
-desc "Clears the styles, generates new styles, builds the site, and finally deploys the site"
+desc "Clears and generates new styles, builds and deploys"
 task :deploy => :build do
   puts "*** Deploying the site ***"
   system("rsync -avz --delete site/ #{ssh_user}:#{remote_root}")
