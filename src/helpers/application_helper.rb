@@ -23,7 +23,7 @@ module ApplicationHelper
   
   def class_names
     body_class = [body_class_current_page]
-    body_class << @body_class unless @body_class.nil?
+    body_class << (@body_class unless @body_class.nil?)
   end
   
 end
