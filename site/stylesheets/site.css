@@ -1,0 +1,8 @@
+@import url(reset.css);
+
+body { padding: 20px; }
+
+h1 { font-size: 18px; font-weight: bold; margin-bottom: 20px; }
+
+p { margin-bottom: 10px; }
+p code { background: #f8f8ff; border: 1px solid #cacaca; color: #333; font-family: Monaco, "Courier New"; font-size: 13px; padding: 1px 2px; }
