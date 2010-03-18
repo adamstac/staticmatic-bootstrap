@@ -4,7 +4,7 @@ require 'compass'
 Compass.configuration.parse('config.rb')
 
 # Default is 3000
-configuration.preview_server_port = 3040
+configuration.preview_server_port = 3000
 
 # Default is localhost
 configuration.preview_server_host = "localhost"
