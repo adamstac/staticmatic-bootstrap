@@ -1,3 +1,7 @@
+require "rubygems"
+require "bundler"
+Bundler.setup
+
 ssh_user = "user@domain.com" # for rsync deployment
 remote_root = "~/path/to/remote/" # for rsync deployment
 
