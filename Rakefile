@@ -33,7 +33,7 @@ namespace :styles do
   desc "Generates new styles"
   task :generate => :clear do
     puts "*** Generating styles ***"
-    system "compass"
+    system "compass compile"
   end
   
 end
