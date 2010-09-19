@@ -20,6 +20,6 @@ configuration.sass_options = Compass.sass_engine_options
 # Default is an empty hash
 # http://haml-lang.com/docs/yardoc/file.HAML_REFERENCE.html#options
 configuration.haml_options = {
-  #:format => :html5,
+  :format => :html5,
   :attr_wrapper => '"'
 }
