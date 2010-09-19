@@ -1,4 +1,9 @@
+require 'bundler'
+Bundler.setup
+
 require 'compass'
+require 'coderay'
+require 'haml-coderay'
 
 # Parse the Compass config
 Compass.add_project_configuration('config.rb')
