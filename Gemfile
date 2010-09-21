@@ -1,4 +1,3 @@
-# A sample Gemfile
 source :gemcutter
 #
 gem "rack"
@@ -7,5 +6,5 @@ gem "haml"
 gem "compass"
 gem "coderay"
 gem "haml-coderay"
-gem "grit" , :path => "/home/nick/projects/grit"
+gem "grit"
 gem "RedCloth"
