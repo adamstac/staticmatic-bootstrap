@@ -1,6 +1,12 @@
-!!! 5
+!!!
 %html
   %head
-    = partial('shared/layout/head')
+    %title = page_title
+    - if @page_description
+      %meta{:name => "description", :content => @page_description}
+    = stylesheets :site
+    = javascripts('https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js')
+    = javascripts('http://ajax.cdnjs.com/ajax/libs/modernizr/1.7/modernizr-1.7.min.js')
+    = javascripts('application')
   %body{:id => body_id, :class => body_class}
     = yield
